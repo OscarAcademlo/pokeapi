@@ -2,7 +2,7 @@ import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import StatPokemon from './StatPokemon'
-import './styles/PokemonCard.css'
+import './styles/pokemonCard.css'
 const gitPokemonCard = ({url}) => {
   const [pokemon, setPokemon] = useState()
   const navigate = useNavigate()
