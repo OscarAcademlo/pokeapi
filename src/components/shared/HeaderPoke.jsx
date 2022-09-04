@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles/HeaderPoke.css'
+import './styles/headerPoke.css'
 
 const HeaderPoke = () => {
   return (
