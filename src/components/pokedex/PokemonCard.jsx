@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import StatPokemon from './StatPokemon'
 import './styles/PokemonCard.css'
-const PokemonCard = ({url}) => {
+const gitPokemonCard = ({url}) => {
   const [pokemon, setPokemon] = useState()
   const navigate = useNavigate()
   useEffect(() => {
