@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
 import PokemonCard from './pokedex/PokemonCard'
 import SearchInput from './SearchInput'
-import SelectType from './Pokedex/SelectType'
+import SelectType from './pokedex/SelectType'
 import Pagination from './Pagination'
 import './styles/pokedex.css'
 
